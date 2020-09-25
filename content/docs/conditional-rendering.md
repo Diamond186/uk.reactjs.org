@@ -122,7 +122,7 @@ ReactDOM.render(
 
 ### Вбудовані умови if з логічним оператором && {#inline-if-with-logical--operator}
 
-Ви можете [вставляти будь-який вираз у JSX](/docs/introducing-jsx.html#embedding-expressions-in-jsx) охопивши його у фігурні дужки. Це правило поширюється і на логічний оператор `&&` JavaScript, яким можно зручно вставити елемент в залежності від умови:
+Ви можете [вставляти будь-який вираз у JSX](/docs/introducing-jsx.html#embedding-expressions-in-jsx) охопивши його у фігурні дужки. Це правило поширюється і на логічний оператор `&&` JavaScript, який дозволяє зручно вставити елемент в залежності від умови:
 
 ```js{6-10}
 function Mailbox(props) {
